@@ -28,38 +28,54 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* ==== LAYOUT STYLES ==== */
 #content {
+<<<<<<< HEAD
   display: flex;
   flex-flow: wrap;
 
+=======
+>>>>>>> 3f063038dd3df80da1d56bacb67030096ad6a20a
 
 }
 
 #three,
 #two,
 #one {
+<<<<<<< HEAD
   height: 20vw;
   width: 20vw;
 
+=======
+>>>>>>> 3f063038dd3df80da1d56bacb67030096ad6a20a
 
 }
 
 #three {
+<<<<<<< HEAD
   order: 3;
+=======
+>>>>>>> 3f063038dd3df80da1d56bacb67030096ad6a20a
 
 }
 
 #two {
+<<<<<<< HEAD
   order: 2;
+=======
+>>>>>>> 3f063038dd3df80da1d56bacb67030096ad6a20a
 
 }
 
 #one {
+<<<<<<< HEAD
   order: 1;
+=======
+>>>>>>> 3f063038dd3df80da1d56bacb67030096ad6a20a
 
 }
 
 @media screen and (min-width: 600px) {
 
+<<<<<<< HEAD
   #content {
     flex-flow: wrap;
   }
@@ -75,10 +91,13 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
     height: 50vw;
   }
 
+=======
+>>>>>>> 3f063038dd3df80da1d56bacb67030096ad6a20a
 }
 
 @media screen and (min-width: 800px) {
 
+<<<<<<< HEAD
   #three,
   #two,
   #one {
@@ -87,4 +106,6 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
   }
 
+=======
+>>>>>>> 3f063038dd3df80da1d56bacb67030096ad6a20a
 }
