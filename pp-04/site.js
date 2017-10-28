@@ -5,7 +5,7 @@
 var x = 5;
 
 function double(num) {
-  x = num * 2;
+  var x = num * 2;
   return x;
 }
 
@@ -19,16 +19,26 @@ console.log('The value of x is:', x, 'It should be 5.');
 //  like `window.x`):
 
 
+(function() {
+  function double(num) {
+    var x = num * 2;
+    return x;
+  }
+
+  double(x);
+}
+);
+
 //  3. Correct this function so that there is no i variable in
 //  the global scope:
 
 function arrayEach(array, func) {
-  for (i = 0; i < array.length; i++) {
+  for (var i = 0; i < array.length; i++) {
     func(array[i]);
   }
 }
 
-arrayEach(['red','green','blue'], console.log);
+arrayEach(['red', 'green', 'blue'], console.log);
 
 console.log(i) // should be 'undefined', not 3
 
@@ -36,10 +46,16 @@ console.log(i) // should be 'undefined', not 3
 //  variable x declared on line 5 above. Write your explanation
 //  as JavaScript comments.
 
+// The x within the function 'addTwo' serves as a substitute for the method.
+// It takes in only the parameter of the function and is declared only in
+// the function
+
 function addTwo(x) {
   x = x + 2;
   return x;
 }
+
+
 
 console.log(addTwo(4)); // 6
 console.log(x); // should be 5 if you corrected the double() function above
