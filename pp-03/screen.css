@@ -28,84 +28,63 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* ==== LAYOUT STYLES ==== */
 #content {
-<<<<<<< HEAD
   display: flex;
   flex-flow: wrap;
 
-=======
->>>>>>> 3f063038dd3df80da1d56bacb67030096ad6a20a
 
 }
 
 #three,
 #two,
 #one {
-<<<<<<< HEAD
   height: 20vw;
   width: 20vw;
 
-=======
->>>>>>> 3f063038dd3df80da1d56bacb67030096ad6a20a
 
 }
 
 #three {
-<<<<<<< HEAD
   order: 3;
-=======
->>>>>>> 3f063038dd3df80da1d56bacb67030096ad6a20a
 
 }
 
 #two {
-<<<<<<< HEAD
   order: 2;
-=======
->>>>>>> 3f063038dd3df80da1d56bacb67030096ad6a20a
 
 }
 
 #one {
-<<<<<<< HEAD
   order: 1;
-=======
->>>>>>> 3f063038dd3df80da1d56bacb67030096ad6a20a
 
 }
 
 @media screen and (min-width: 600px) {
 
-<<<<<<< HEAD
-  #content {
+  #content{
     flex-flow: wrap;
   }
 
-  #three {
+  #three{
     flex-basis: 100%;
     height: 50vw;
   }
 
   #one,
-  #two {
+  #two{
     flex-basis: 50%;
     height: 50vw;
   }
 
-=======
->>>>>>> 3f063038dd3df80da1d56bacb67030096ad6a20a
 }
 
 @media screen and (min-width: 800px) {
 
-<<<<<<< HEAD
   #three,
   #two,
-  #one {
+  #one{
     flex-basis: 33.333333%;
     height: 33.33333vw;
 
   }
 
-=======
->>>>>>> 3f063038dd3df80da1d56bacb67030096ad6a20a
 }
