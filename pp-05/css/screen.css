@@ -18,6 +18,10 @@ body {
   padding: 10%;
 }
 
+#ring {
+  cursor: pointer;
+}
+
 /* ===== LAYOUT STYLES ===== */
 
 
