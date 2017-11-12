@@ -3,8 +3,16 @@ function ringDoorbell() {
   doorbell.play();
 }
 
+// Remove player for Javascript users
 
+$(document).ready(function(){
+  $("#doorbell").remove();
+})
+
+// Task Three
 
 bell.addEventListener('click', function() {
   ringDoorbell();
 });
+
+// Bonus Task One
