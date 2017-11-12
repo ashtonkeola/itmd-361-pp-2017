@@ -15,4 +15,9 @@ bell.addEventListener('click', function() {
   ringDoorbell();
 });
 
-// Bonus Task One
+// Bonus Task Two
+$(document).on("keypress", function(event) {
+  var x = event.key;
+  if(x == 'd')
+      ringDoorbell();
+});
